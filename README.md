@@ -1,6 +1,6 @@
 README
 ======
-Lazy journalling scripts that I use.
+Lazy journaling scripts that I use.
  1. `journal.sh`: Open a new Journal entry using `$EDITOR`.
  2. `show-journal.sh`: Select a journal entry to read.
 Dependencies:

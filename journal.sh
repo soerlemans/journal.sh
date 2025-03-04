@@ -24,4 +24,4 @@ cat > "$ENTRY" <<- EOF
 	EOF
 fi
 
-nvim "$ENTRY"
+"${EDITOR:-nvim}" "$ENTRY"

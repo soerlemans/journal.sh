@@ -4,7 +4,7 @@
 # Globals:
 readonly DIR="${HOME}/.journal"
 readonly TIMESTAMP="$(date '+%a-%d-%m-%Y')"
-readonly ENTRY="journal-${TIMESTAMP}.txt"
+readonly ENTRY="journal-${TIMESTAMP}.md"
 
 readonly TITLE="Journal ${TIMESTAMP}:"
 readonly TITLE_BAR="$(echo "$TITLE" | sed -e 's/./=/g')"

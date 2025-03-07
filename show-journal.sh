@@ -12,7 +12,7 @@ cd "$DIR"
 # readonly ENTRY="$(ls | sort -t '-' -r -k5,5n -k4,4n -k3,3n | fzf)"
 
 echo -n 'Journal entries: '
-ls -1 *.txt | wc -l
+ls -1 *.md | wc -l
 
 readonly ENTRY="$(ls -1 | fzf)"
 cat "${ENTRY:?No journal entry selected.}" \
